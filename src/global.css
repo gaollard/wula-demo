@@ -1,0 +1,18 @@
+/* :import("./common.css") {
+  localColor: color;
+  size: size;
+}
+
+:export {
+  name: 1px;
+  localAlias: localColor;
+}
+
+body {
+  background-color: localColor;
+  border: size solid black;
+} */
+
+.slick-track {
+  
+}
