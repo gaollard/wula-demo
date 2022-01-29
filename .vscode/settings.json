@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["wula"]
+  "cSpell.words": [
+    "camelcase",
+    "wula"
+  ],
+  "eslint.nodePath": "node_modules/wula/node_modules"
 }

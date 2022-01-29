@@ -1,16 +1,1 @@
-/* :import("./common.css") {
-  localColor: color;
-  size: size;
-}
-
-:export {
-  name: 1px;
-  localAlias: localColor;
-}
-
-body {
-  background-color: localColor;
-  border: size solid black;
-} */
-
-@import "./iconfont/iconfont.css";
+@import "./assets/font/iconfont/iconfont.css";
