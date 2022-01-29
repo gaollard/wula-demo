@@ -1,19 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./global.css";
-import homeStyle from "./home.module.css";
-import about from "./about.module.less";
-import img from "./wechat.jpeg";
-import { ReactComponent as CheckIcon } from "./check.svg";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './global.css';
+import { ReactComponent as CheckIcon } from './assets/svg/check.svg';
 
-console.log(about);
-console.log(homeStyle);
-
-var root = document.createElement("div");
-root.setAttribute("id", "root");
+var root = document.createElement('div');
+root.setAttribute('id', 'root');
 document.body.appendChild(root);
 
-import("./lazy").then((res) => {
+import('./utils/lazy').then((res) => {
   console.log(res);
 });
 

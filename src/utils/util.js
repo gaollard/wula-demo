@@ -1,5 +1,5 @@
 export const utils = {
   sleep: function () {
-    console.log("sleep");
+    console.log('sleep');
   },
 };
