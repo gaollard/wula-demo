@@ -1,0 +1,4 @@
+{
+  "extends": "./node_modules/wula/node_modules/eslint-config-react-app",
+  "rules": {}
+}

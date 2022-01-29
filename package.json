@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
     "build": "wula build",
     "start": "wula start"
+  },
+  "lint-staged": {
+    "**/*.js": "prettier --write --ignore-unknown"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +18,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.2",
+    "prettier": "2.5.1"
   }
 }

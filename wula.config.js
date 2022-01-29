@@ -1,10 +1,10 @@
 module.exports = {
-  publicPath: '',
+  publicPath: "",
   chainWebpack: {},
   define: {
-    APP: 1
+    APP: 1,
   },
   proxy: {},
   sentry: {},
-  report: {}
+  report: {},
 };

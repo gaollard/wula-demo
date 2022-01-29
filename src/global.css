@@ -13,6 +13,4 @@ body {
   border: size solid black;
 } */
 
-.slick-track {
-  
-}
+@import "./iconfont/iconfont.css";
