@@ -24,7 +24,9 @@ export interface UserInfo {
 }
 
 export class UserInfoStore {
-  rootStore: RootStore;
+  static storeName = 'userInfoStore';
+  public rootStore: RootStore;
+
   constructor(store: RootStore) {
     this.rootStore = store;
   }

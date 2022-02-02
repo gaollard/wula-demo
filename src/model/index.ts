@@ -1,5 +1,7 @@
 import { UserInfoStore } from "./userInfo.store";
 
+export { UserInfoStore }
+
 export class RootStore {
   userInfoStore: UserInfoStore;
 
