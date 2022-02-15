@@ -1,3 +1,12 @@
+/*
+ * @Author: your name
+ * @Date: 2022-02-19 10:52:50
+ * @LastEditTime: 2022-02-19 14:58:51
+ * @LastEditors: your name
+ * @Description: 路由配置
+ * @FilePath: wula-demo/src/routes/index.tsx
+ */
+
 import React from 'react';
 import { Route, HashRouter, Routes } from 'react-router-dom';
 import Home from '../pages/home';
@@ -18,9 +27,9 @@ export function renderRoutes() {
     const { component, ...rest } = it;
     const PathComponent = component as any;
     const element = (
-      // <Layout>
+      <Layout>
         <PathComponent />
-      // </Layout>
+      </Layout>
     );
     return <Route {...rest} element={element} />;
   });
