@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "build": "wula build",
-    "start": "wula start"
+    "build": "wiiai-cli-service build",
+    "start": "wiiai-cli-service start"
   },
   "lint-staged": {
     "**/*.js": "prettier --write --ignore-unknown"
@@ -22,7 +22,8 @@
     "mobx-react": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.2.1",
+    "wiiai-cli-service": "^1.0.0"
   },
   "devDependencies": {
     "husky": "^7.0.4",
