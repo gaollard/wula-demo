@@ -4,7 +4,7 @@
  * @LastEditTime: 2022-02-19 11:54:29
  * @LastEditors: Please set LastEditors
  * @Description: 日期处理相关函数几个
- * @FilePath: wula-demo/src/utils/date.ts
+ * @FilePath: src/utils/date.ts
  */
 
 import dayjs from 'dayjs';

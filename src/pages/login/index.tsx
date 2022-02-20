@@ -1,8 +1,9 @@
 import React from 'react';
-const Me = () => {
+
+const Me: React.FC = () => {
   return (
     <div>
-      Me
+      Login
     </div>
   )
 }
